@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<j8583cn-config>
+	<encode>gbk</encode>
+	<!-- 报文类型 -->
+	<header length="19">0200</header>
+	
+	<!-- 创建模板 -->
+	<!-- 解析模板 -->
+	<parseinfo msgtypeid="0200">
+		<field id="3" datatype="NUMERIC" length="6"></field>
+		<field id="4" datatype="ALPHA" length="4"></field>
+		<field id="5" datatype="NUMERIC" length="5"></field>
+		<field id="6" datatype="LLVAR"></field>
+		<field id="7" datatype="BINARY" length="3"></field>
+		<field id="11" datatype="NUMERIC" length="8"></field>
+	</parseinfo>
+
+</j8583cn-config>
